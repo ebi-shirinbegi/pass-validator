@@ -14,5 +14,6 @@ First it looks at the length of the password. If it's less than 8 or longer than
 
 
 How to run:
+
 Open the password validator.html file in a web browser and type a password. if there is a red message, try another one.
 
