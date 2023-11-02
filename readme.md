@@ -4,7 +4,7 @@ This program checks if a password is according to a specific policy or not. It s
 
 ## How it Works:
 
-When you type your password, it runs the validatePassword() function. This checks somethings:
+When you type your password, it runs the validatePassword() function. This checks below conditions:
 
 Is the password between 8 and 16 letters and numbers?
 Does it have letters and at least one digit?
@@ -16,3 +16,10 @@ First it looks at the length of the password. If it's less than 8 or longer than
 
 Open the password validator.html file in a web browser and type a password. if there is a red message, try another one.
 
+## Stack:
+
+- HTML for content/structure.
+- CSS/Bootstrap for styling.
+- JavaScript for logic/interactivity.
+- Fetch API for network requests.
+- Dictionary API for password validation (This API checks both words and phonetics).
